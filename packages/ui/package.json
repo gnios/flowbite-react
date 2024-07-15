@@ -1,5 +1,5 @@
 {
-  "name": "flowbite-react",
+  "name": "@gnios/flowbite-react",
   "version": "0.10.2",
   "description": "Official React components built for Flowbite and Tailwind CSS",
   "keywords": [
@@ -102,8 +102,5 @@
         "postpublish": "clean-package restore"
       }
     }
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/gnios"
   }
 }

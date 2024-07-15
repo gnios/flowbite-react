@@ -70,6 +70,6 @@
     }
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/gnios"
+    "registry": "https://npm.pkg.github.com"
   }
 }
