@@ -1,5 +1,5 @@
 {
-  "name": "@gnios/create-flowbite-react",
+  "name": "create-flowbite-react",
   "version": "1.0.9",
   "description": "Quickly scaffold Flowbite React application",
   "keywords": [
@@ -47,6 +47,6 @@
     "node": ">=18.0.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/gnios"
   }
 }
