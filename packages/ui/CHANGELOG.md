@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.2
+
+### Patch Changes
+
+- [`0c24062`](https://github.com/themesberg/flowbite-react/commit/0c2406253a2d04d0bd9ad77c78a06a3f30c14428) Thanks [@gnios](https://github.com/gnios)! - feat: adding forwardRef in Carousel
+
 ## 0.10.1
 
 ### Patch Changes
