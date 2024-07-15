@@ -1,0 +1,5 @@
+---
+"flowbite-react": major
+---
+
+Carousel

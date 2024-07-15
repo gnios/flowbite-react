@@ -1,6 +1,6 @@
 {
   "name": "flowbite-react",
-  "version": "0.10.2",
+  "version": "0.10.4",
   "description": "Official React components built for Flowbite and Tailwind CSS",
   "keywords": [
     "design-system",
@@ -15,7 +15,7 @@
   "bugs": "https://github.com/themesberg/flowbite-react/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/themesberg/flowbite-react.git",
+    "url": "git+https://github.com/gnios/flowbite-react.git",
     "directory": "packages/ui"
   },
   "license": "MIT",
@@ -102,8 +102,5 @@
         "postpublish": "clean-package restore"
       }
     }
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
