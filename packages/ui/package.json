@@ -102,5 +102,8 @@
         "postpublish": "clean-package restore"
       }
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
