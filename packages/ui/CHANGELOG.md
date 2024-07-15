@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0
+
+### Major Changes
+
+- [#5](https://github.com/gnios/flowbite-react/pull/5) [`9129a45`](https://github.com/gnios/flowbite-react/commit/9129a459af15a85a39f366a92bfddf6816c0de05) Thanks [@gnios](https://github.com/gnios)! - Carousel
+
 ## 0.10.2
 
 ### Patch Changes
