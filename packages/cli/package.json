@@ -1,6 +1,6 @@
 {
   "name": "create-flowbite-react",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Quickly scaffold Flowbite React application",
   "keywords": [
     "create-flowbite-react",
@@ -33,15 +33,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup",
-    "clean": "rimraf .turbo dist node_modules",
-    "dev": "tsup --watch",
-    "format": "prettier . --write",
-    "format:check": "prettier . --check",
-    "prepack": "clean-package",
-    "prepublishOnly": "bun run build",
-    "start": "bun run dist/index.js",
-    "typecheck": "tsc --noEmit"
+    "postpublish": "clean-package restore"
   },
   "dependencies": {
     "@clack/prompts": "0.7.0",
@@ -51,25 +43,10 @@
     "picocolors": "1.0.1",
     "rimraf": "5.0.7"
   },
-  "devDependencies": {
-    "tsup": "8.1.0",
-    "typescript": "5.4.5"
-  },
   "engines": {
     "node": ">=18.0.0"
   },
-  "clean-package": {
-    "remove": [
-      "devDependencies",
-      "clean-package"
-    ],
-    "replace": {
-      "scripts": {
-        "postpublish": "clean-package restore"
-      }
-    }
-  },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/gnios"
   }
 }
